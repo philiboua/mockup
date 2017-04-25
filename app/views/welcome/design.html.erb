@@ -1,0 +1,36 @@
+<body class="body-2">
+  <div class="container-content">
+    <div class="flexbox flexbox-align-center flexbox-vertical">
+    <h1 class="heading-14">Car Deal Inc Website</h1>
+
+    <%= image_tag("placeit.png", :class =>"image-5" )%>
+    <p class="paragraph-3">Few things have been changed on the mobile and Ipad version. We decided to change the layout of the menu, the product grid and also the footer.</p>
+    <div class="flexbox flexbox-align-center flexbox-justify-center">
+      <%= image_tag("iphone.png", :width => '445', :class =>"image-6",  :sizes =>"(max-width: 479px) 100vw, 50vw" )%>
+      <div class="details-design">
+        <h1 class="heading-15">Mobile Menu</h1>
+        <p class="paragraph-4">We decided to choose an Hamburger menu for mobiles ans Ipads. The interaction is very simple, when the user clicks on the hamburger, the menu slides from the right. The user clicks on the link is looking to explore and the menu disappears to the right.</p>
+      </div>
+    </div>
+    <div class="flexbox flexbox-align-center flexbox-justify-center reverse">
+      <div class="details-design">
+        <h1 class="heading-15">Product Grid</h1>
+        <p class="paragraph-4">The product Grid is responsive. As a result the number of products will adapt based on the size of the screen of the user. We put an interaction on each photo; when the user scroll to the grid of product, each photo reveals slowly.</p>
+      </div>
+      <%= image_tag("iphone_product.png", :width => '445', :class =>"image-6",  :sizes =>"(max-width: 479px) 100vw, 50vw" )%>
+      
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+    $(document).on('click', '.menu-mobile-link', function(event) { 
+        event.preventDefault(); 
+        $("#menu-button").click(); 
+    });
+  </script>
+    
+  </div>
+  
+</body>
