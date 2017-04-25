@@ -13,7 +13,7 @@
         </div>
         <div class="menu-for-destock w-hidden-medium w-hidden-small w-hidden-tiny"><a class="menu-item-link" href="index.html">Home</a><a class="menu-item-link" href="#features">features</a><a class="menu-item-link" href="#pages">pages</a><a class="menu-item-link" href="#blog">blog</a><a class="menu-item-link" href="#contact">contact</a><a class="menu-item-login" href="#">Login</a>
           <a class="w-inline-block" href="#">
-            <%= image_tag("search_icon_gray.png", :width => '38')%>
+            <%= image_tag("search_icon_gray.png", :width => '38', :style => "margin-right: 20px;")%>
           </a>
         </div>
         <div class="menu-mobile-link-wp w-hidden-main" data-ix="reveal-menu">
@@ -98,7 +98,8 @@
         </div>
       </div>
       <div class="filter">
-        <img sizes="(max-width: 479px) 100vw, 228px" src="/images/filter.png" srcset="images/filter-p-500.png 500w, images/filter.png 551w" width="228">
+        <%= image_tag("filter.png", :width => '228', :class =>"image-6", :style => "width: 200px;" )%>
+        
       </div>
       <div class="produt-grid" id="features">
         <div class="flexbox flexbox-space-between flexbox-wrap-children">
@@ -266,7 +267,10 @@
       <div class="latest_car">
         <h3 id="blog">Latest Car News</h3>
         <div class="flexbox flexbox-justify-center flexbox-wrap-children">
-          <div class="car-news-box" data-ix="show-last-car"><img class="image-3" sizes="(max-width: 479px) 100vw, 298px" src="images/CAR1.png" srcset="images/CAR1-p-500.png 500w, images/CAR1.png 506w" width="278">
+          <div class="car-news-box" data-ix="show-last-car">
+            <%= image_tag("CAR1-p-500.png", :width => '278', :class =>"image-3", :size => "(max-width: 479px) 100vw, 298px")%>
+         
+            
             <h4 class="heading-7 padding-top-10">50 years of pony style car</h4>
             <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique</p>
             <div class="flexbox flexbox-align-center flexbox-justify-center padding-bottom-20">
@@ -276,7 +280,9 @@
             </div>
           </div>
           <div class="car-news-box" data-ix="show-last-car-2">
-            <img class="image-3" sizes="(max-width: 479px) 100vw, 298px" src="/images/CAR2.png" srcset="images/CAR2-p-500.png 500w, images/CAR2.png 520w" width="278">
+            <%= image_tag("CAR2.png", :width => '278', :class =>"image-3", :size => "(max-width: 479px) 100vw, 298px")%>
+
+            
 
             <h4 class="heading-7 padding-top-10">Because 600 hp is not enough</h4>
             <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique</p>
