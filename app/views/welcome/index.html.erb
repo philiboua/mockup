@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com -->
+<!--  Last Published: Tue Apr 25 2017 17:56:55 GMT+0000 (UTC)  -->
+<html data-wf-page="58fe85fa96c30a674ff44cba" data-wf-site="58fe85fa96c30a674ff44cb9">
+
+
+<body class="body">
+  <div class="container-content">
+    <div class="header">
+      <div class="flexbox flexbox-align-center flexbox-justify-space-between full-height">
+        <div class="logo margin-left-20">
+          <h2 class="h1">TEST</h2>
+        </div>
+        <div class="menu-for-destock w-hidden-medium w-hidden-small w-hidden-tiny"><a class="menu-item-link" href="index.html">Home</a><a class="menu-item-link" href="#features">features</a><a class="menu-item-link" href="#pages">pages</a><a class="menu-item-link" href="#blog">blog</a><a class="menu-item-link" href="#contact">contact</a><a class="menu-item-login" href="#">Login</a>
+          <a class="w-inline-block" href="#">
+            <%= image_tag("search_icon_gray.png", :width => '38')%>
+          </a>
+        </div>
+        <div class="menu-mobile-link-wp w-hidden-main" data-ix="reveal-menu">
+          <div class="w-embed">
+            <div class="menu" id="menu-button">
+              <span class="menu-global menu-top"></span>
+              <span class="menu-global menu-middle"></span>
+              <span class="menu-global menu-bottom"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="flexbox flexbox-align-start flexbox-justify-end flexbox-vertical full-height">
+        <div class="feature_product">
+          <h2 class="h2" data-ix="reveal-details-hero">BMW X4</h2>
+          <h3 class="heading" data-ix="reveal-details-hero-2"><span class="feature_price">$110 000</span> . 05 - 2016 . 0 miles <span>. </span>190 kw (255)</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="dropdown-form">
+        <div class="flex-justify-center flexbox flexbox-wrap-children padding-all-30">
+          <div class="dropdown-form-box flexbox flexbox-vertical">
+            <div class="form-wrapper w-form">
+              <form class="form" data-name="Email Form" id="email-form" name="email-form">
+                <select class="form-input-dropdown w-select" data-name="Select Make" id="Select-Make" name="Select-Make">
+                  <option value="">Select Make</option>
+                  <option value="First">First Choice</option>
+                  <option value="Second">Second Choice</option>
+                  <option value="Third">Third Choice</option>
+                </select>
+                <select class="form-input-dropdown w-select" data-name="Registration" id="Registration" name="Registration">
+                  <option value="">First Registration</option>
+                  <option value="First">First Choice</option>
+                  <option value="Second">Second Choice</option>
+                  <option value="Third">Third Choice</option>
+                </select>
+                <select class="form-input-dropdown margin-bottom-none w-select" data-name="Select Make 2" id="Select-Make-2" name="Select-Make-2">
+                  <option value="">Max Price</option>
+                  <option value="First">First Choice</option>
+                  <option value="Second">Second Choice</option>
+                  <option value="Third">Third Choice</option>
+                </select>
+              </form>
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form</div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown-form-box flexbox flexbox-vertical">
+            <div class="form-wrapper-2 w-form">
+              <form class="form-2" data-name="Email Form" id="email-form" name="email-form">
+                <select class="form-input-dropdown w-select" data-name="Select Make First" id="Select-Make-First" name="Select-Make-First">
+                  <option value="">Select Make</option>
+                  <option value="First">First Choice</option>
+                  <option value="Second">Second Choice</option>
+                  <option value="Third">Third Choice</option>
+                </select>
+                <select class="form-input-dropdown w-select" data-name="Registration 2" id="Registration-2" name="Registration-2">
+                  <option value="">Select Mileage</option>
+                  <option value="First">First Choice</option>
+                  <option value="Second">Second Choice</option>
+                  <option value="Third">Third Choice</option>
+                </select>
+                <input class="submit-form w-button" data-wait="Please wait..." type="submit" value="Submit">
+              </form>
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="filter">
+        <img sizes="(max-width: 479px) 100vw, 228px" src="/images/filter.png" srcset="images/filter-p-500.png 500w, images/filter.png 551w" width="228">
+      </div>
+      <div class="produt-grid" id="features">
+        <div class="flexbox flexbox-space-between flexbox-wrap-children">
+          <div class="product-item" data-ix="reveal-product">
+            <div class="p1 product-image">
+              <h4 class="full-width h3">$22,000</h4>
+            </div>
+            <div class="product-details">
+              <div class="flexbox flexbox-vertical">
+                <h4 class="heading-2">Volkswagen Golf 2.5l</h4>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("icon_calendar.png", :width => '35')%>
+                  <h5 class="heading-3">09-2014</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("miles_icon.png", :width => '35')%>
+                  <h5 class="heading-3">75,000 miles</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("sinusoide.png", :width => '35')%>
+                  <h5 class="heading-3">210 kw (282hp)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item" data-ix="reveal-product-2">
+            <div class="product-image">
+              <h4 class="full-width h3">$28,500</h4>
+            </div>
+            <div class="product-details">
+              <div class="flexbox flexbox-vertical">
+                <h4 class="heading-2">Subaru WRX</h4>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("icon_calendar.png", :width => '35')%>
+                  <h5 class="heading-3">09-2014</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("miles_icon.png", :width => '35')%>
+                  <h5 class="heading-3">75,000 miles</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("sinusoide.png", :width => '35')%>
+                  <h5 class="heading-3">210 kw (282hp)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item" data-ix="reveal-product-3">
+            <div class="p3 product-image">
+              <h4 class="full-width h3">$35,000</h4>
+            </div>
+            <div class="product-details">
+              <div class="flexbox flexbox-vertical">
+                <h4 class="heading-2">Infinity Q50</h4>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("icon_calendar.png", :width => '35')%>
+                  <h5 class="heading-3">09-2014</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("miles_icon.png", :width => '35')%>
+                  <h5 class="heading-3">75,000 miles</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("sinusoide.png", :width => '35')%>
+                  <h5 class="heading-3">210 kw (282hp)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item" data-ix="reveal-product">
+            <div class="p4 product-image">
+              <h4 class="full-width h3">$36,000</h4>
+            </div>
+            <div class="product-details">
+              <div class="flexbox flexbox-vertical">
+                <h4 class="heading-2">Mercedes Benz ML (All Wheel Drive)</h4>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("icon_calendar.png", :width => '35')%>
+                  <h5 class="heading-3">09-2014</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("miles_icon.png", :width => '35')%>
+                  <h5 class="heading-3">75,000 miles</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("sinusoide.png", :width => '35')%>
+                  <h5 class="heading-3">210 kw (282hp)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item" data-ix="reveal-product-2">
+            <div class="p5 product-image">
+              <h4 class="full-width h3">$42,000</h4>
+            </div>
+            <div class="product-details">
+              <div class="flexbox flexbox-vertical">
+                <h4 class="heading-2">Volvo V40 Cross Country</h4>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("icon_calendar.png", :width => '35')%>
+                  <h5 class="heading-3">09-2014</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("miles_icon.png", :width => '35')%>
+                  <h5 class="heading-3">75,000 miles</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("sinusoide.png", :width => '35')%>
+                  <h5 class="heading-3">210 kw (282hp)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item" data-ix="reveal-product-3">
+            <div class="p6 product-image">
+              <h4 class="full-width h3">$45,000</h4>
+            </div>
+            <div class="product-details">
+              <div class="flexbox flexbox-vertical">
+                <h4 class="heading-2">Audi TT RS</h4>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("icon_calendar.png", :width => '35')%>
+                  <h5 class="heading-3">09-2014</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("miles_icon.png", :width => '35')%>
+                  <h5 class="heading-3">75,000 miles</h5>
+                </div>
+                <div class="flexbox flexbox-align-center">
+                  <%= image_tag("sinusoide.png", :width => '35')%>
+                  <h5 class="heading-3">210 kw (282hp)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pagination">
+        <div class="flexbox flexbox-align-center flexbox-justify-center">
+          <h4 class="heading-4">1</h4>
+          <h4 class="heading-4 non-active">2</h4>
+          <h4 class="heading-4 non-active">&gt;</h4>
+        </div>
+      </div>
+      <div class="statistics" id="pages">
+        <div class="flexbox flexbox-space-between flexbox-wrap-children space-between">
+          <div class="stat-box" data-ix="reveal-stats">
+            <h3 class="heading-5">25</h3>
+            <h5 class="heading-6">25 years in Business</h5>
+          </div>
+          <div class="stat-box" data-ix="reveal-stats">
+            <h3 class="heading-5">1,000+</h3>
+            <h5 class="heading-6">Cars Sold</h5>
+          </div>
+          <div class="stat-box" data-ix="reveal-stats">
+            <h3 class="heading-5">98%</h3>
+            <h5 class="heading-6">Customer Satisfaction</h5>
+          </div>
+          <div class="stat-box" data-ix="reveal-stats">
+            <h3 class="heading-5">10,000+</h3>
+            <h5 class="heading-6">Registered Users</h5>
+          </div>
+        </div>
+      </div>
+      <div class="latest_car">
+        <h3 id="blog">Latest Car News</h3>
+        <div class="flexbox flexbox-justify-center flexbox-wrap-children">
+          <div class="car-news-box" data-ix="show-last-car"><img class="image-3" sizes="(max-width: 479px) 100vw, 298px" src="images/CAR1.png" srcset="images/CAR1-p-500.png 500w, images/CAR1.png 506w" width="278">
+            <h4 class="heading-7 padding-top-10">50 years of pony style car</h4>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique</p>
+            <div class="flexbox flexbox-align-center flexbox-justify-center padding-bottom-20">
+              <%= image_tag("philippe.jpg", :class => "image-4", :width => '39')  %>
+              
+              <h5 class="heading-8">By Philippe AKA</h5>
+            </div>
+          </div>
+          <div class="car-news-box" data-ix="show-last-car-2">
+            <img class="image-3" sizes="(max-width: 479px) 100vw, 298px" src="/images/CAR2.png" srcset="images/CAR2-p-500.png 500w, images/CAR2.png 520w" width="278">
+
+            <h4 class="heading-7 padding-top-10">Because 600 hp is not enough</h4>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique</p>
+            <div class="flexbox flexbox-align-center flexbox-justify-center">
+              <%= image_tag("philippe.jpg", :class => "image-4", :width => '39')  %>
+              <h5 class="heading-8">By Philippe AKA</h5>
+            </div>
+          </div>
+        </div><a class="submit_vehicle w-button" href="#">Submit your vehicle</a>
+      </div>
+    </div>
+    <div class="footer" id="contact">
+      <div class="flexbox flexbox-space-between flexbox-wrap-children">
+        <div class="footer-element-box">
+          <h4 class="heading-9">Car Dealer inc</h4>
+          <h5 class="heading-10">Address : 1 Fantasy Road 10100 Car Heaven, USA</h5>
+          <h5 class="heading-10">Telephone : 0 800 555 123 456</h5>
+          <h5 class="heading-10">Email : info@atyourcompany.com</h5>
+        </div>
+        <div class="footer-element-box">
+          <h4 class="heading-9">Opening Hours</h4>
+          <div class="flexbox flexbox-justify-space-between">
+            <h5 class="heading-11">Monday</h5>
+            <h5 class="heading-11">9:00 - 18:00</h5>
+          </div>
+          <div class="flexbox flexbox-justify-space-between">
+            <h5 class="heading-11">Tuesday</h5>
+            <h5 class="heading-11">9:00 - 18:00</h5>
+          </div>
+          <div class="flexbox flexbox-justify-space-between">
+            <h5 class="heading-11">Wednesday</h5>
+            <h5 class="heading-11">9:00 - 18:00</h5>
+          </div>
+          <div class="flexbox flexbox-justify-space-between">
+            <h5 class="heading-11">Thursday</h5>
+            <h5 class="heading-11">9:00 - 18:00</h5>
+          </div>
+          <div class="flexbox flexbox-justify-space-between">
+            <h5 class="heading-11">Friday</h5>
+            <h5 class="heading-11">9:00 - 18:00</h5>
+          </div>
+          <div class="flexbox flexbox-justify-space-between">
+            <h5 class="heading-11">Saturday</h5>
+            <h5 class="heading-11">9:00 - 12:00</h5>
+          </div>
+          <div class="flexbox flexbox-justify-space-between">
+            <h5 class="heading-11">Sunday</h5>
+            <h5 class="heading-11">Closed</h5>
+          </div>
+        </div>
+        <div class="email-box footer-element-box">
+          <h4 class="heading-9">Get the best deals first</h4>
+          <div class="w-form">
+            <form data-name="Email Form 2" id="email-form-2" name="email-form-2">
+              <div class="flexbox">
+                <input class="text-field w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="Your email address" type="text">
+                <input class="submit-button w-button" data-wait="Please wait..." type="submit" value="Submit">
+              </div>
+            </form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form</div>
+            </div>
+          </div>
+          <h5 class="heading-11">No worries, we don't spam, promise.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <h5 class="heading-12 padding-left-20">Copyright 2016 by Car Dealer Inc.</h5>
+    </div>
+    <div class="mobile-menu" data-ix="hide-mobile-menu">
+      <div class="flexbox flexbox-align-center flexbox-vertical">
+        <h3 class="heading-13"></h3><a class="menu-mobile-link" data-ix="reveal-menu-2" href="#">home</a><a class="menu-mobile-link" data-ix="reveal-menu-2" href="#features">features</a><a class="menu-mobile-link" data-ix="reveal-menu-2" href="#pages">pages</a><a class="menu-mobile-link" data-ix="reveal-menu-2" href="#blog">blog</a><a class="menu-mobile-link" data-ix="reveal-menu-2" href="#contact">contact</a><a class="menu-mobile-link" data-ix="reveal-menu-2" href="#">search</a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+    $(document).on('click', '.menu-mobile-link', function(event) {
+        event.preventDefault();
+        $("#menu-button").click();
+    });
+  </script>
+</body>
+</html>
